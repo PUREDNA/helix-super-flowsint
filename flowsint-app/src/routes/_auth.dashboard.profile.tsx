@@ -151,7 +151,7 @@ function ProfilePage() {
           </div>
         </form>
 
-        {/* DNA 2026-11-16: skift egen adgangskode. Flowsint havde ingen —
+        {/* 2026-11-16: skift egen adgangskode. Flowsint havde ingen —
             kun en administrator kunne nulstille den. Kraever den gamle kode. */}
         <ChangePasswordCard />
       </div>

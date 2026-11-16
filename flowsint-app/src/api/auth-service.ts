@@ -59,7 +59,7 @@ export const authService = {
     })
   },
 
-  // DNA 2026-11-16: Flowsint havde ingen maade at skifte egen kode paa.
+  // 2026-11-16: Flowsint havde ingen maade at skifte egen kode paa.
   // Kraever den gamle kode, saa en efterladt session ikke kan laase ude.
   changePassword: async (
     old_password: string,

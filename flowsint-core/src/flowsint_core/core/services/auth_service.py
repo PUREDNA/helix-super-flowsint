@@ -48,7 +48,7 @@ class AuthService(BaseService):
                         new_password: str) -> Dict[str, Any]:
         """Skift adgangskode for den indloggede bruger.
 
-        DNA 2026-11-16: Flowsint havde ingen funktion til at skifte sin egen
+        2026-11-16: Flowsint havde ingen funktion til at skifte sin egen
         kode — kun en administrator kunne nulstille den. Denne metode kraever
         den gamle kode, saa en aaben session ikke kan skifte den uden videre.
         """

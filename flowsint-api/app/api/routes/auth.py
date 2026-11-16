@@ -27,7 +27,7 @@ def change_password(
 ):
     """Skift egen adgangskode — kraever den gamle kode.
 
-    DNA 2026-11-16: tilfoejet, fordi Flowsint ikke havde nogen maade at
+    2026-11-16: tilfoejet, fordi Flowsint ikke havde nogen maade at
     skifte sin egen kode paa. Kraever gammel kode, saa en efterladt session
     ikke kan laase ejeren ude.
     """
